@@ -21,6 +21,7 @@ const Header = () => {
       navigate("/contact");
     }
   }, [navigate, selTab]);
+
   return (
     <div className="bg-black h-14 px-14 flex justify-between">
       <div className="flex my-auto">
@@ -29,7 +30,7 @@ const Header = () => {
             key={index}
             className={`${
               selTab === index ? " text-yellow-500" : "text-white"
-            } mx-4 cursor-pointer hover:text-yellow-500`}
+            } mx-8 cursor-pointer hover:text-yellow-500`}
             onClick={() => setSelTab(index)}
           >
             {tabName}
