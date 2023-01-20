@@ -1,12 +1,5 @@
 import Address from "../../components/address";
-
-const Lists = [
-  ["Email Address", "isanoguchi721@gmail.com"],
-  ["Skype address", "live:.cid.6b3be79ded813cc6"],
-  ["Telegram address", "dragon721"],
-  ["Phone Number", "+1 254-221-1884"],
-  ["Discord address", "fire721#4458"],
-];
+import { Lists } from "../../constant";
 
 const Contact = () => {
   return (

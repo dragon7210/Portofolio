@@ -1,6 +1,19 @@
+import WorkHistory from "../../components/workHistory";
+import { Works } from "../../constant";
+
 const Work = () => {
   return (
-    <div className="bg-[#1d1e20] h-[calc(100vh_-_56px)] flex justify-between py-20 px-20"></div>
+    <div className="bg-[#1d1e20] h-[calc(100vh_-_56px)] py-20 px-20">
+      {Works.map((ele, index) => (
+        <WorkHistory
+          key={index}
+          type={ele[0]}
+          during={ele[1]}
+          title={ele[2]}
+          content={ele[3]}
+        />
+      ))}
+    </div>
   );
 };
 
