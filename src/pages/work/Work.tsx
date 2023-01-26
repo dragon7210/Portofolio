@@ -3,7 +3,7 @@ import { Works } from "../../constant";
 
 const Work = () => {
   return (
-    <div className="bg-[#1d1e20] h-[calc(100vh_-_56px)] py-20 px-20">
+    <div className="bg-[#112240] py-20 px-20 h-[calc(100vh_-_72px)]">
       {Works.map((ele, index) => (
         <WorkHistory
           key={index}
