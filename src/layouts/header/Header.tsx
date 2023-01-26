@@ -23,14 +23,17 @@ const Header = () => {
   }, [navigate, selTab]);
 
   return (
-    <div className="bg-black h-14 px-14 flex justify-between">
+    <div className="bg-[#0a192f] py-4 px-20  flex justify-between">
+      <div className="w-[40px] my-auto">
+        <img src="img/logo.png" alt="logo" />
+      </div>
       <div className="flex my-auto">
         {tabNames.map((tabName, index) => (
           <p
             key={index}
             className={`${
-              selTab === index ? " text-yellow-500" : "text-white"
-            } mx-8 cursor-pointer hover:text-yellow-500`}
+              selTab === index ? " text-[#64ffda]" : "text-white"
+            } mx-8 cursor-pointer hover:text-[#64ffda]`}
             onClick={() => setSelTab(index)}
           >
             {tabName}
