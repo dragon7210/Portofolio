@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="bg-[#112240] py-20 px-40 h-[calc(100vh_-_72px)] flex">
       <div className="w-[60%] mx-auto mt-10">
-        <p className="text-[#a8b2d1] text-[50px]">About me</p>
+        <p className="text-[#64ffda] text-[50px]">About me</p>
         <p className="text-[#8892b0] text-[20px] mt-10">
           Hello! My name is Isa Noguchi and I enjoy creating things that live on
           the internet. My interest in web development started back in 2012 when
@@ -19,7 +19,7 @@ const About = () => {
           everything you need to build a web app with the Spotify API using Node
           & React.
         </p>
-        <p className="text-[#8892b0] text-[20px] mt-10">
+        <p className="text-[#64ffda] text-[20px] mt-10">
           Here are a few technologies I’ve been working with recently:
         </p>
         <Technology />

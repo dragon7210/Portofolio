@@ -27,6 +27,7 @@ export const Works = [
   ],
 ];
 
+
 export const Techlists = [
   "JavaScript (ES6+)",
   "React",
