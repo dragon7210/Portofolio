@@ -26,3 +26,13 @@ export const Works = [
     "Designed and implemented a tax statement's administrative app using React (front end and back end). Refactored the existing code to improve the performance of a heavy Angular front end by talking to a Node.js and Express.js via REST API. Served as a full-stack developer using React, Node, HTML, CSS and Javascript, TypeScript.",
   ],
 ];
+
+export const Techlists = [
+  "JavaScript (ES6+)",
+  "React",
+  "Node.js",
+  "Angular",
+  "Laravel",
+  "Spring boot",
+  "typescript",
+];
