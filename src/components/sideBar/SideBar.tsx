@@ -4,8 +4,8 @@ import { Works } from "../../constant";
 const SideBar = () => {
   const [selBar, setSelBar] = useState(0);
   return (
-    <div className="mt-10 flex justify-between">
-      <div className="w-[200px]">
+    <div className="mt-10 flex">
+      <div className="w-[400px]">
         {Works.map((element, index) => (
           <p
             key={index}
@@ -23,7 +23,7 @@ const SideBar = () => {
       {Works.map(
         (element, index) =>
           selBar === index && (
-            <div key={index} className="w-[80%]">
+            <div key={index} className="w-[60%]">
               <p className="text-[25px] text-[#64ffda]">{element[0]}</p>
               <p className="text-[20px] text-[#8892b0] mt-3">{element[1]}</p>
               <p className="text-[20px] text-[#8892b0] mt-3">{element[3]}</p>
