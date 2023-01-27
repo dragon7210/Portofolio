@@ -22,7 +22,9 @@ const Footer = () => {
         <div className="flex">
           <img src={Github} alt="maker" className="w-[17px]" />
           <div className="ml-[20px]">
-            <p className="text-white">https://github.com/dragon7210</p>
+            <a href="https://github.com/dragon7210">
+              <p className="text-white">https://github.com/dragon7210</p>
+            </a>
           </div>
         </div>
       </div>
@@ -34,7 +36,7 @@ const Footer = () => {
         </div>
         <div className="ml-[20px] flex">
           <img src={Mail} alt="mail" className="w-[12px]" />
-          <p className="text-white ml-4">isanoguchi721@gmail.com</p>
+          <p className="text-white ml-4">firedragon7210@gmail.com</p>
         </div>
         <div className="ml-[20px] flex">
           <img src={Skype} alt="skype" className="w-[12px]" />
