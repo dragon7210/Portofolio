@@ -1,3 +1,4 @@
+import { TypeAnimation } from "react-type-animation";
 import Photo from "../../assets/img/photo.png";
 import Technology from "../../components/technology";
 
@@ -5,7 +6,12 @@ const About = () => {
   return (
     <div className="bg-[#112240] py-20 px-40 h-[calc(100vh_-_176px)] flex">
       <div className="w-[60%] mx-auto mt-10">
-        <p className="text-[#64ffda] text-[50px]">About me</p>
+        <TypeAnimation
+          sequence={["About me", 2000, ""]}
+          speed={10}
+          repeat={Infinity}
+          style={{ color: "#64ffda", fontSize: "40px" }}
+        />
         <p className="text-[#8892b0] text-[20px] mt-10">
           Hello! My name is Isa Noguchi and I enjoy creating things that live on
           the internet. My interest in web development started back in 2012 when

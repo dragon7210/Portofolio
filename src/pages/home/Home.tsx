@@ -1,9 +1,16 @@
+import { TypeAnimation } from "react-type-animation";
+
 const Home = () => {
   return (
     <div className="bg-[#112240] py-20 px-20 h-[calc(100vh_-_176px)]">
       <div className="w-[60%] mx-auto mt-10">
         <p className="text-[20px] text-[#64ffda]">Hi, my name is</p>
-        <p className="text-[#a8b2d1] text-[70px] mt-3">Isa Noguchi</p>
+        <TypeAnimation
+          sequence={["Isa Noguchi", 2000, ""]}
+          speed={10}
+          repeat={Infinity}
+          style={{ color: "#64ffda", fontSize: "55px" }}
+        />
         <p className="text-[#ccd6f6] text-[50px] mt-3">
           I build things for the web.
         </p>
