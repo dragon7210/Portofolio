@@ -3,7 +3,7 @@ import Technology from "../../components/technology";
 
 const About = () => {
   return (
-    <div className="bg-[#112240] py-20 px-40 h-[calc(100vh_-_72px)] flex">
+    <div className="bg-[#112240] py-20 px-40 h-[calc(100vh_-_165px)] flex">
       <div className="w-[60%] mx-auto mt-10">
         <p className="text-[#64ffda] text-[50px]">About me</p>
         <p className="text-[#8892b0] text-[20px] mt-10">
