@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-
-const tabNames = ["Home", "About", "Work", "Contact"];
+import { TabNames } from "../../constant";
 
 const Header = () => {
   const [selTab, setSelTab] = useState(0);
@@ -28,7 +27,7 @@ const Header = () => {
         <img src="img/logo.png" alt="logo" />
       </div>
       <div className="flex my-auto">
-        {tabNames.map((tabName, index) => (
+        {TabNames.map((TabName, index) => (
           <p
             key={index}
             className={`${
@@ -36,7 +35,7 @@ const Header = () => {
             } mx-8 cursor-pointer hover:text-[#64ffda]`}
             onClick={() => setSelTab(index)}
           >
-            {tabName}
+            {TabName}
           </p>
         ))}
       </div>

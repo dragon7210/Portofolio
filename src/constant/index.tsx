@@ -27,7 +27,6 @@ export const Works = [
   ],
 ];
 
-
 export const Techlists = [
   "JavaScript (ES6+)",
   "React",
@@ -37,3 +36,5 @@ export const Techlists = [
   "Spring boot",
   "typescript",
 ];
+
+export const TabNames = ["Home", "About", "Work", "Portofolio"];
