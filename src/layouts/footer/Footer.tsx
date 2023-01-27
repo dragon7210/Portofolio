@@ -29,7 +29,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="opacity-60 my-auto">
-        <p className="text-[#64ffda] text-center">contact</p>
+        <p className="text-[#64ffda] text-center">Contact</p>
         <div className="ml-[20px] flex">
           <img src={Phone} alt="phone" className="w-[12px]" />
           <p className="text-white ml-4">+1 254-221-1884</p>
