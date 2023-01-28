@@ -38,3 +38,12 @@ export const Techlists = [
 ];
 
 export const TabNames = ["Home", "About", "Work", "Portofolio"];
+
+export const Data = [
+  ["/img/portion.png", "NFT Website", "https://portion.io"],
+  ["/img/swap.png", "Swap Website", "https://app.uniswap.org/"],
+  ["/img/shop.png", "Shop Website", "https://www.renogy.com/"],
+  ["/img/mint.png", "NFT Mint Website", "https://sp-zone.vercel.app/"],
+  ["/img/game.png", "NFT Game Website", "https://overworldlife.com/"],
+  ["/img/shark.png", "NFT Website", "https://save-whales.com/"],
+];
