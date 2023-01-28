@@ -17,14 +17,14 @@ const Home = () => {
         <p className="text-[#ccd6f6] text-[50px] mt-3 font-[Sofia] font-effect-neon">
           I build things for the web.
         </p>
-        <p className="text-[#8892b0] mt-3 text-[20px] w-[80%]">
+        <p className="text-[#8892b0] mt-3 text-[25px] w-[80%] font-[WindSong]">
           I am a passionate software engineer who started programming in grade
           school. After getting my bachelor's degree in computer science, I
           worked for two large international companies–developing mostly web
           applications for several years. I am accustomed to a distributed
           environment and working with remote clients using agile methodologies.
         </p>
-        <button className="border-[#64ffda] px-4 py-2 border-solid border-[2px] mt-10">
+        <button className="border-[#64ffda] px-4 py-2 border-solid border-[2px] mt-10 rounded-lg">
           <p className="text-[#64ffda]">Check out my course</p>
         </button>
       </div>

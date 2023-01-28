@@ -23,7 +23,7 @@ const Header = () => {
 
   return (
     <div className="bg-[#0a192f] py-4 px-20  flex justify-between">
-      <div className="w-[40px] my-auto">
+      <div className="w-[40px] my-auto cursor-pointer">
         <img src="img/logo.png" alt="logo" />
       </div>
       <div className="flex my-auto">

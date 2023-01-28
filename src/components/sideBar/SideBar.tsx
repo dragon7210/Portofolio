@@ -24,9 +24,15 @@ const SideBar = () => {
         (element, index) =>
           selBar === index && (
             <div key={index} className="w-[60%]">
-              <p className="text-[25px] text-[#64ffda]">{element[0]}</p>
-              <p className="text-[20px] text-[#8892b0] mt-3">{element[1]}</p>
-              <p className="text-[20px] text-[#8892b0] mt-3">{element[3]}</p>
+              <p className="text-[30px] text-[#64ffda] font-effect-fire">
+                {element[0]}
+              </p>
+              <p className="text-[25px] text-[#8892b0] mt-3 font-effect-emboss">
+                {element[1]}
+              </p>
+              <p className="text-[25px] text-[#8892b0] mt-3 font-[WindSong]">
+                {element[3]}
+              </p>
             </div>
           )
       )}
