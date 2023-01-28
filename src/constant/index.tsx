@@ -45,5 +45,5 @@ export const Data = [
   ["/img/shop.png", "Shop Website", "https://www.renogy.com/"],
   ["/img/mint.png", "NFT Mint Website", "https://sp-zone.vercel.app/"],
   ["/img/game.png", "NFT Game Website", "https://overworldlife.com/"],
-  ["/img/shark.png", "NFT Website", "https://save-whales.com/"],
+  ["/img/shark.png", "Screen Website", "https://save-whales.com/"],
 ];
