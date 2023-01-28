@@ -7,7 +7,8 @@ const Portofolio = () => {
         sequence={["Portofolio", 2000, ""]}
         speed={10}
         repeat={Infinity}
-        style={{ color: "#64ffda", fontSize: "40px" }}
+        style={{ color: "#64ffda", fontSize: "40px", fontFamily: "Sofia" }}
+        className="font-effect-neon"
       />
     </div>
   );

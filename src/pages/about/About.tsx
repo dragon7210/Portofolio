@@ -10,7 +10,8 @@ const About = () => {
           sequence={["About me", 2000, ""]}
           speed={10}
           repeat={Infinity}
-          style={{ color: "#64ffda", fontSize: "40px" }}
+          style={{ color: "#64ffda", fontSize: "40px", fontFamily: "Sofia" }}
+          className="font-effect-neon"
         />
         <p className="text-[#8892b0] text-[20px] mt-10">
           Hello! My name is Isa Noguchi and I enjoy creating things that live on
