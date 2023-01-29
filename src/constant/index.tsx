@@ -32,10 +32,10 @@ export const Techlists = [
   ["Typescript", "img/typescript.png"],
   ["React", "img/react.png"],
   ["Node.js", "img/node.png"],
-  ["Express.js", "img/node.png"],
+  ["Laravel", "img/laravel.png"],
   ["Tailwind Css", "img/tailwind.png"],
   ["Angular", "img/angular.png"],
-  ["Laravel", "img/laravel.png"],
+  ["Express.js", "img/node.png"],
   ["Spring boot", "img/spring.png"],
 ];
 
