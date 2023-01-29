@@ -11,7 +11,6 @@ const Technology = () => {
             alt="techImg"
           />
           <span className="text-[#8892b0] font-[Sofia] text-[18px]">
-            {" "}
             {list[0]}
           </span>
         </div>
