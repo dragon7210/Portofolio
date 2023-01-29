@@ -17,7 +17,7 @@ const Home = () => {
         <p className="text-[#ccd6f6] text-[50px] mt-3 font-[Sofia] font-effect-neon">
           I build things for the web.
         </p>
-        <p className="text-[#8892b0] mt-3 text-[25px] w-[80%] font-[WindSong]">
+        <p className="text-[#8892b0] mt-3 text-[25px] w-[80%] font-[Sofia]">
           I am a passionate software engineer who started programming in grade
           school. After getting my bachelor's degree in computer science, I
           worked for two large international companies–developing mostly web

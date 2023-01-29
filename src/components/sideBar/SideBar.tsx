@@ -21,7 +21,7 @@ const SideBar = () => {
         ))}
       </div>
       {Works.map(
-        (element, index) =>
+        (element: any, index) =>
           selBar === index && (
             <div key={index} className="w-[60%]">
               <p className="text-[30px] text-[#64ffda] font-effect-fire">
@@ -30,9 +30,13 @@ const SideBar = () => {
               <p className="text-[25px] text-[#8892b0] mt-3 font-effect-emboss">
                 {element[1]}
               </p>
-              <p className="text-[25px] text-[#8892b0] mt-3 font-[WindSong]">
-                {element[3]}
-              </p>
+              {element[3].map((content: string, i: number) => (
+                <li key={i} className="text-[25px] mt-3 text-[#64ffda]">
+                  <span className="text-[25px] text-[#8892b0] mt-3 font-[Sofia] font-effect-emboss">
+                    {content}
+                  </span>
+                </li>
+              ))}
             </div>
           )
       )}

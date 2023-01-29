@@ -10,7 +10,7 @@ const Site: React.FC<Props> = ({ data }) => {
       <div className="flex py-4 justify-between px-4">
         <p className="font-[Sofia] text-white">{data[1]}</p>
         <a href={data[2]}>
-          <p className="text-[#64ffda]  font-[Molle]">{data[2]}</p>
+          <p className="text-[#64ffda]">{data[2]}</p>
         </a>
       </div>
     </div>

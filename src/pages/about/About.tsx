@@ -13,7 +13,7 @@ const About = () => {
           style={{ color: "#64ffda", fontSize: "40px", fontFamily: "Sofia" }}
           className="font-effect-neon"
         />
-        <p className="text-[#8892b0] text-[20px] mt-10 font-[WindSong]">
+        <p className="text-[#8892b0] text-[20px] mt-10 font-[Sofia]">
           Hello! My name is Isa Noguchi and I enjoy creating things that live on
           the internet. My interest in web development started back in 2012 when
           I decided to try editing custom Tumblr themes — turns out hacking

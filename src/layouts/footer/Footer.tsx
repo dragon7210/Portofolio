@@ -3,6 +3,7 @@ import Github from "../../assets/svg/github.svg";
 import Phone from "../../assets/svg/phone.svg";
 import Mail from "../../assets/svg/mail.svg";
 import Skype from "../../assets/svg/skype.svg";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -24,6 +25,9 @@ const Footer = () => {
           <div className="ml-[20px]">
             <a href="https://github.com/dragon7210">
               <p className="text-white">https://github.com/dragon7210</p>
+              <Link to="/resume/Isa.pdf" target="_blank" download>
+                <p className="text-white">Resume Download</p>
+              </Link>
             </a>
           </div>
         </div>
