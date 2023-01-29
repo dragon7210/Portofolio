@@ -28,13 +28,15 @@ export const Works = [
 ];
 
 export const Techlists = [
-  "JavaScript (ES6+)",
-  "React",
-  "Node.js",
-  "Angular",
-  "Laravel",
-  "Spring boot",
-  "typescript",
+  ["JavaScript (ES6+)", "img/javascript.png"],
+  ["Typescript", "img/typescript.png"],
+  ["React", "img/react.png"],
+  ["Node.js", "img/node.png"],
+  ["Express.js", "img/node.png"],
+  ["Tailwind Css", "img/tailwind.png"],
+  ["Angular", "img/angular.png"],
+  ["Laravel", "img/laravel.png"],
+  ["Spring boot", "img/spring.png"],
 ];
 
 export const TabNames = ["Home", "About", "Work", "Portofolio"];
