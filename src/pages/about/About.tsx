@@ -4,7 +4,7 @@ import Technology from "../../components/technology";
 
 const About = () => {
   return (
-    <div className="bg-[#112240] py-20 px-40 sm:px-20 xl:h-[calc(100vh_-_176px)] xl:flex">
+    <div className="bg-[#112240] py-20 md:px-40 px-20 xl:h-[calc(100vh_-_176px)] xl:flex">
       <div className="xl:w-[60%] mx-auto mt-10">
         <TypeAnimation
           sequence={["About me", 2000, ""]}
@@ -27,7 +27,6 @@ const About = () => {
           & React.
         </p>
 
-       
         <Technology />
       </div>
       <div className="opacity-30 hover:opacity-80 mt-16">

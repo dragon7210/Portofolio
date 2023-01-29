@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="bg-[#0a192f] py-1 px-40 lg:flex justify-between ">
-      <div className="opacity-60 my-auto">
+      <div className="opacity-60 my-5">
         <p className="text-[#64ffda] lg:text-center">Address</p>
         <div className="flex">
           <img src={Maker} alt="maker" className="w-[17px]" />
@@ -18,7 +18,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="opacity-60 my-auto">
+      <div className="opacity-60 my-5">
         <p className="text-[#64ffda] lg:text-center">Online Profile</p>
         <div className="flex">
           <img src={Github} alt="maker" className="w-[17px]" />
@@ -32,7 +32,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="opacity-60 my-auto">
+      <div className="opacity-60 my-5">
         <p className="text-[#64ffda] lg:text-center">Contact</p>
         <div className="ml-[20px] flex">
           <img src={Phone} alt="phone" className="w-[12px]" />
