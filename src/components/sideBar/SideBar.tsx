@@ -5,7 +5,7 @@ const SideBar = () => {
   const [selBar, setSelBar] = useState(0);
   return (
     <div className="mt-10 flex">
-      <div className="w-[400px]">
+      <div className="lg:w-[400px] md:w-[200px]">
         {Works.map((element, index) => (
           <p
             key={index}
@@ -23,7 +23,7 @@ const SideBar = () => {
       {Works.map(
         (element: any, index) =>
           selBar === index && (
-            <div key={index} className="w-[60%]">
+            <div key={index} className="w-[60%] md:ml-9">
               <p className="text-[30px] text-[#64ffda] font-effect-fire">
                 {element[0]}
               </p>

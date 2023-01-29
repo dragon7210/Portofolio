@@ -2,8 +2,8 @@ import { TypeAnimation } from "react-type-animation";
 
 const Home = () => {
   return (
-    <div className="bg-[#112240] py-20 px-20 h-[calc(100vh_-_176px)]">
-      <div className="w-[60%] mx-auto mt-10">
+    <div className="bg-[#112240] py-20 px-20 xl:h-[calc(100vh_-_176px)]">
+      <div className="lg:w-[60%] mx-auto mt-10">
         <p className="text-[20px] text-[#64ffda] font-[Sofia] font-effect-emboss mb-7">
           Hi, my name is
         </p>

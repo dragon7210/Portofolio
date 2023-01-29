@@ -4,8 +4,8 @@ import Technology from "../../components/technology";
 
 const About = () => {
   return (
-    <div className="bg-[#112240] py-20 px-40 h-[calc(100vh_-_176px)] flex">
-      <div className="w-[60%] mx-auto mt-10">
+    <div className="bg-[#112240] py-20 px-40 sm:px-20 xl:h-[calc(100vh_-_176px)] xl:flex">
+      <div className="xl:w-[60%] mx-auto mt-10">
         <TypeAnimation
           sequence={["About me", 2000, ""]}
           speed={10}
@@ -27,13 +27,11 @@ const About = () => {
           & React.
         </p>
 
-        <p className="text-[#64ffda] text-[25px] mt-10 font-effect-fire">
-          Here are a few technologies I’ve been working with recently:
-        </p>
+       
         <Technology />
       </div>
       <div className="opacity-30 hover:opacity-80 mt-16">
-        <img src={Photo} alt="profile" className="rounded-[50%]" />
+        <img src={Photo} alt="profile" className="rounded-[50%] mx-auto" />
       </div>
     </div>
   );

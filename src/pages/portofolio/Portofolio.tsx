@@ -4,7 +4,7 @@ import { Data } from "../../constant";
 
 const Portofolio = () => {
   return (
-    <div className="bg-[#112240] py-20 px-20 h-[calc(100vh_-_176px)]">
+    <div className="bg-[#112240] py-20 px-20 xl:h-[calc(100vh_-_176px)]">
       <div className="ml-[10%]">
         <TypeAnimation
           sequence={["Portofolio", 2000, ""]}
@@ -19,7 +19,7 @@ const Portofolio = () => {
         />
       </div>
 
-      <div className="grid grid-cols-3 mt-10 gap-6 w-[80%] mx-auto">
+      <div className="grid grid-cols-1 mt-10 gap-6 md:grid-cols-2 xl:grid-cols-3">
         {Data.map((element, index) => (
           <SiteComponent key={index} data={element} />
         ))}

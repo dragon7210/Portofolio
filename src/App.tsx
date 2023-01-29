@@ -10,7 +10,7 @@ import "./App.css";
 function App() {
   return (
     <BrowserRouter>
-      <div className="App">
+      <div className="App min-w-[670px]">
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
