@@ -34,17 +34,17 @@ const Footer = () => {
       </div>
       <div className="opacity-60 my-5">
         <p className="text-[#64ffda] lg:text-center">Contact</p>
-        <div className="ml-[20px] flex">
+        <div className="flex">
           <img src={Phone} alt="phone" className="w-[12px]" />
-          <p className="text-white ml-4">+1 254-221-1884</p>
+          <p className="text-white ml-5">+1 254-221-1884</p>
         </div>
-        <div className="ml-[20px] flex">
+        <div className=" flex">
           <img src={Mail} alt="mail" className="w-[12px]" />
-          <p className="text-white ml-4">firedragon7210@gmail.com</p>
+          <p className="text-white ml-5">firedragon7210@gmail.com</p>
         </div>
-        <div className="ml-[20px] flex">
+        <div className="flex">
           <img src={Skype} alt="skype" className="w-[12px]" />
-          <p className="text-white ml-4">live:.cid.6b3be79ded813cc6</p>
+          <p className="text-white ml-5">live:.cid.6b3be79ded813cc6</p>
         </div>
       </div>
     </div>
