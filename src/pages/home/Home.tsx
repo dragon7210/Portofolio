@@ -5,10 +5,10 @@ const Home = () => {
     <div className="bg-[#112240] py-20 px-20 xl:h-[calc(100vh_-_176px)]">
       <div className="lg:w-[60%] mx-auto mt-10">
         <p className="text-[20px] text-[#64ffda] font-[Sofia] font-effect-emboss mb-7">
-          Hi, my name is
+          Hi, I am
         </p>
         <TypeAnimation
-          sequence={["Isa Noguchi", 2000, ""]}
+          sequence={["DRAGON", 2000, ""]}
           speed={10}
           repeat={Infinity}
           style={{ color: "#64ffda", fontSize: "55px", fontFamily: "Sofia" }}
