@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <div className="bg-[#0a192f] py-1 px-40 lg:flex justify-between ">
       <div className="opacity-60 my-5">
-        <p className="text-[#64ffda] lg:text-center">Address</p>
+        <p className="text-[#64ffda] px-2 font-bold">Address</p>
         <div className="flex">
           <img src={Maker} alt="maker" className="w-[17px]" />
           <div className="ml-[20px]">
@@ -19,7 +19,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="opacity-60 my-5">
-        <p className="text-[#64ffda] lg:text-center">Online Profile</p>
+        <p className="text-[#64ffda]  px-2 font-bold">Online Profile</p>
         <div className="flex">
           <img src={Github} alt="maker" className="w-[17px]" />
           <div className="ml-[20px]">
@@ -33,7 +33,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="opacity-60 my-5">
-        <p className="text-[#64ffda] lg:text-center">Contact</p>
+        <p className="text-[#64ffda]  px-2 font-bold">Contact</p>
         <div className="flex">
           <img src={Phone} alt="phone" className="w-[12px]" />
           <p className="text-white ml-5">+1 254-221-1884</p>
