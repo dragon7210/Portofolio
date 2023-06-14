@@ -32,7 +32,7 @@ const SideBar = () => {
               </p>
               {element[3].map((content: string, i: number) => (
                 <li key={i} className="text-[25px] mt-3 text-[#64ffda]">
-                  <span className="text-[25px] text-[#8892b0] mt-3 font-[Sofia] font-effect-emboss">
+                  <span className="text-[25px] text-[#8892b0] mt-3 font-effect-emboss">
                     {content}
                   </span>
                 </li>

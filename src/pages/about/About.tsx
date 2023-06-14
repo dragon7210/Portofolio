@@ -4,16 +4,16 @@ import Technology from "../../components/technology";
 
 const About = () => {
   return (
-    <div className="bg-[#112240] py-20 md:px-40 px-20 xl:h-[calc(100vh_-_176px)] xl:flex">
+    <div className="bg-[#112240] py-20 md:px-40 px-20 xl:h-[calc(100vh_-_216px)] xl:flex">
       <div className="xl:w-[60%] mx-auto mt-10">
         <TypeAnimation
           sequence={["About me", 2000, ""]}
           speed={10}
           repeat={Infinity}
-          style={{ color: "#64ffda", fontSize: "40px", fontFamily: "Sofia" }}
+          style={{ color: "#64ffda", fontSize: "40px" }}
           className="font-effect-neon"
         />
-        <p className="text-[#8892b0] text-[20px] mt-10 font-[Sofia]">
+        <p className="text-[#8892b0] text-[20px] mt-10">
           Hello! My name is Isa Noguchi and I enjoy creating things that live on
           the internet. My interest in web development started back in 2012 when
           I decided to try editing custom Tumblr themes — turns out hacking

@@ -4,7 +4,7 @@ import { Data } from "../../constant";
 
 const Portofolio = () => {
   return (
-    <div className="bg-[#112240] py-20 px-20 xl:h-[calc(100vh_-_176px)]">
+    <div className="bg-[#112240] py-20 px-20 xl:h-[calc(100vh_-_216px)]">
       <div className="ml-[10%]">
         <TypeAnimation
           sequence={["Portofolio", 2000, ""]}
@@ -13,7 +13,6 @@ const Portofolio = () => {
           style={{
             color: "#64ffda",
             fontSize: "40px",
-            fontFamily: "Sofia",
           }}
           className="font-effect-neon"
         />
