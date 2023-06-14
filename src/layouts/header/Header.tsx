@@ -32,7 +32,7 @@ const Header = () => {
             key={index}
             className={`${
               selTab === index ? " text-[#64ffda]" : "text-white"
-            } mx-8 cursor-pointer hover:text-[#64ffda] font-[Sofia]`}
+            } mx-8 cursor-pointer hover:text-[#64ffda]`}
             onClick={() => setSelTab(index)}
           >
             {TabName}
